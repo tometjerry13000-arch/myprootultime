@@ -1473,7 +1473,52 @@ santa_muerte: {
             "bras levés en prière",
             "gestes de bénédiction",
             "marche majestueuse",
-            "regards mystérieux derrière le voile"
+// ==================== COURTISANE ====================
+courtisane: {
+    type: "default",
+    name: "👑 Courtisane",
+    dance: "Danse de Séduction",
+    palmColors: { left: "#8b4513", right: "#d4af37" },
+    finalOutfit: {
+        description: "tenue de courtisane luxueuse et sensuelle",
+        colors: ["velours pourpre", "or", "ivoire"],
+        elements: [
+            "robe longue en velours pourpre profond",
+            "corset en soie ivoire avec lacets dorés",
+            "jupons en dentelle fine",
+            "manches longues transparentes",
+            "décolleté vertigineux",
+            "fente latérale jusqu'à mi-cuisse"
+        ],
+        accessories: [
+            "éventail en dentelle dorée",
+            "collier de perles fines",
+            "pendentif en or avec rubis",
+            "gants longs en résille",
+            "broche antique dans les cheveux",
+            "parfum de luxe (accessoire invisible)",
+            "chaussures à talons en satin"
+        ]
+    },
+    hairFluo: ["brun", "auburn", "noir", "blond vénitien"],
+    background: "boudoir luxueux du 18ème siècle, tentures de velours, bougies parfumées, miroirs dorés, mobilier ancien, ambiance intime et raffinée",
+    danceMoves: {
+        part1: [
+            "démarche féline et langoureuse",
+            "jeux avec l'éventail (ouvertures lentes)",
+            "regards par-dessus l'épaule",
+            "poses alanguies sur un sofa",
+            "caresses sensuelles sur sa propre peau"
+        ],
+        part2: [
+            "danse de séduction accélérée",
+            "jeux avec les voiles et la dentelle",
+            "cambrures spectaculaires",
+            "tournoiements gracieux",
+            "poses de tentatrice"
+        ]
+    }
+},            "regards mystérieux derrière le voile"
         ],
         part2: [
             "danse rituelle accélérée",
@@ -1484,6 +1529,9 @@ santa_muerte: {
         ]
     }
 },
+
+
+    
        circus: {
         type: "circus",
         name: "🎪 Acrobate",
