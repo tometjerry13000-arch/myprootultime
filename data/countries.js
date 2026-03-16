@@ -1473,6 +1473,18 @@ santa_muerte: {
             "bras levés en prière",
             "gestes de bénédiction",
             "marche majestueuse",
+            "regards mystérieux derrière le voile"
+        ],
+        part2: [
+            "danse rituelle accélérée",
+            "tours gracieux avec la cape",
+            "jeux avec les roses",
+            "cambrures de sainte",
+            "final en pose de bénédiction, bras écartés"
+        ]
+    }
+},
+
 // ==================== COURTISANE ====================
 courtisane: {
     type: "default",
@@ -1518,20 +1530,10 @@ courtisane: {
             "poses de tentatrice"
         ]
     }
-},            "regards mystérieux derrière le voile"
-        ],
-        part2: [
-            "danse rituelle accélérée",
-            "tours gracieux avec la cape",
-            "jeux avec les roses",
-            "cambrures de sainte",
-            "final en pose de bénédiction, bras écartés"
-        ]
-    }
 },
 
 
-    
+
        circus: {
         type: "circus",
         name: "🎪 Acrobate",
